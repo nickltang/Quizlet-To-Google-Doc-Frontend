@@ -5,7 +5,6 @@ import Row from 'react-bootstrap/Row'
 import Stack from 'react-bootstrap/Stack'
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button'
-import { gapi } from 'gapi-script'
 import { GoogleLogin, GoogleLogout } from 'react-google-login'
 
 const clientId = "525844190311-0ufbalrpqp19s7r3gr4fub6alq2oounl.apps.googleusercontent.com"
@@ -13,9 +12,9 @@ const clientId = "525844190311-0ufbalrpqp19s7r3gr4fub6alq2oounl.apps.googleuserc
 
 const Home = () => {
     const [googleProfile, setGoogleProfile] = useState([])
-    const [googleSignedIn, setGoogleSignedIn] = useState(false)
-    const [quizletSignedIn, setQuizletSignedIn] = useState(true)
-    const [docLink, setDocLink] = useState("")
+    // const [googleSignedIn, setGoogleSignedIn] = useState(false)
+    // const [quizletSignedIn, setQuizletSignedIn] = useState(true)
+    // const [docLink, setDocLink] = useState("")
     const [userName, setUserName] = useState("")
 
 
